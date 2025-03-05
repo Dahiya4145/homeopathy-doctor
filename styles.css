@@ -1,0 +1,765 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+
+/* Navbar Styles */
+.navbar {
+    position: sticky;
+    top: 10px; /* Adjust this to control distance from the top */
+    left: 0;
+    right: 0;
+    background-color: #fff;
+    padding: 15px 5%;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo img {
+    height: 40px; /* Adjust based on your logo size */
+}
+
+.hospital-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+.nav-links li {
+    font-size: 18px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: #28a745;
+}
+
+.contact-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #218838;
+}
+
+
+/* Main Container */
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 5%;
+    max-width: 1200px;
+    margin: auto;
+    gap: 50px;
+}
+
+/* Left Content */
+.content {
+    flex: 1;
+    text-align: left;
+    max-width: 50%;
+}
+
+h1 {
+    font-size: 42px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+h1 span {
+    color: #28a745;
+}
+
+.subtext {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.features {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.specialties p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.book-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.book-btn:hover {
+    background-color: #218838;
+}
+
+/* Image Styling */
+.image-container img {
+    width: 450px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+
+/* About Section Styles */
+.about-section {
+    background-color: #f9f9f9;
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1200px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.image-container img {
+    width: 350px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-content h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    background-color: #28a745;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 150px;
+    text-align: center;
+    
+}
+
+.stat-box h3 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.stat-box p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.stat-box:hover {
+    transform: translateY(-10px);
+   
+}
+
+.contact-btn {
+    background-color: #28a745;
+    color: white;
+    padding: 12px 24px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+    background-color: #218838;
+}
+
+/* Homeopathy Basics Section */
+.homeopathy-basics {
+    background-color: #f9f9f9;
+    padding: 80px 10%;
+    text-align: left;
+}
+
+.content-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.text-content {
+    max-width: 50%;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #131A17;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.stats {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+.stats :hover {
+    transform: translateY(-10px);
+   
+}
+
+.stat {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 150px;
+}
+
+.stat h3 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    font-size: 16px;
+    color: #666;
+}
+
+.image-container {
+    max-width: 45%;
+}
+.image-container :hover {
+    transform: translateY(-10px);
+   
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+    
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-container {
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    .text-content {
+        max-width: 100%;
+    }
+
+    .stats {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
+/* Services Section */
+.services-section {
+    background-color: #f5f5f5;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.services-section h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #131A17;
+    margin-bottom: 20px;
+}
+
+.services-section p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    width: 300px;
+    height: 350px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    transition: transform 0.3s ease;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Overlay effect */
+.service-card .overlay {
+    background-color: rgba(0, 0, 0, 0.6); /* Black overlay */
+    color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Show content when hover */
+.service-card:hover .overlay {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* Disease name box at the bottom */
+.service-card .disease-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #28a745;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2; /* Ensure the disease name is above the overlay */
+    background-color:#131A17; 
+    padding: 10px 20px;
+    width: 100%; /* Make the box span the full width of the card */
+    text-align: center;
+    border-top-left-radius: 10px; /* Rounded top-left corner */
+    border-top-right-radius: 10px; /* Rounded top-right corner */
+}
+
+/* Card Text */
+.service-card h3 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+.service-card p {
+    color: #f9f9f9;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.book-btn, .precaution-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.precaution-btn {
+    background-color: #ffc107; /* Yellow for precaution */
+}
+
+.book-btn:hover, .precaution-btn:hover {
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .services-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}
+
+.works-section {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 20px;
+}
+.work-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 300px;
+    text-align: center;
+}
+.work-card img {
+    width: 100%;
+    height: auto;
+}
+.work-content {
+    padding: 20px;
+}
+.work-content h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.work-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Testimonial Section Styles */
+.testimonial-section {
+    background-color: #f5f5f5;
+    padding: 60px 10%;
+    text-align: center;
+}
+
+.testimonial-container h2 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #131A17;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.testimonial-slider {
+    display: flex;
+    gap: 30px;
+    overflow-x: auto;
+    padding-bottom: 20px;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch; /* Enable smooth scrolling on mobile */
+}
+
+.testimonial-item {
+    background-color: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex-shrink: 0; /* Prevent shrinking */
+}
+
+.testimonial-item:hover {
+    transform: translateY(-10px);
+}
+
+.testimonial-item img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.testimonial-item blockquote {
+    font-size: 18px;
+    font-style: italic;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.testimonial-item .patient-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #131A17;
+}
+
+.testimonial-item .patient-condition {
+    font-size: 16px;
+    color: #666;
+}
+
+/* Slider Customizations */
+.testimonial-slider::-webkit-scrollbar {
+    height: 8px;
+}
+
+.testimonial-slider::-webkit-scrollbar-thumb {
+    background-color: #28a745;
+    border-radius: 4px;
+}
+
+/* Responsive Design: Show only 3 items at once */
+@media (max-width: 1200px) {
+    .testimonial-slider {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .testimonial-item {
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 768px) {
+    .testimonial-section {
+        padding: 40px 5%;
+    }
+
+    .testimonial-slider {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .testimonial-item {
+        max-width: 100%;
+    }
+}
+
+
+
+
+/* Contact Section */
+.contact-section {
+    background-color: #131A17;
+    color: #ffffff;
+    padding: 60px 5%;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.contact-box {
+    background: #1E2421;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    width: 280px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.contact-box i {
+    color: #28a745;
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+
+.contact-box h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.contact-box p {
+    color: #f9f9f9;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* Newsletter */
+.newsletter {
+    margin-top: 50px;
+}
+
+.newsletter h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.newsletter-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter input {
+    padding: 12px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.newsletter button {
+    padding: 12px 20px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.newsletter button:hover {
+    background-color: #218838;
+}
+
+
+/* Footer Styles */
+.footer {
+    background-color: #131A17;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+}
+
+.footer p {
+    margin: 0;
+    color: #f5f5f5;
+}
+
+.social-icons {
+    margin-top: 15px;
+}
+
+.social-icon {
+    color: #fff;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #28a745; /* Green color on hover */
+}
+
+/* Social Media Icons Spacing */
+.social-icon i {
+    padding: 5px;
+}
+
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .about-container {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-container img {
+        width: 250px;
+        height: 350px;
+    }
+
+    .about-content {
+        max-width: 80%;
+    }
+
+    .stats {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .stat-box {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
