@@ -29,4 +29,3 @@ A single-page website designed for a homeopathy doctor using HTML and CSS. This 
 1. Open `index.html` in your preferred web browser to view the website.
 2. Alternatively, use the live preview link:(https://dahiya4145.github.io/homeopathy-doctor/)
 
-\
